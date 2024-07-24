@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/f1f98e74906d2c48ff4ec8a40e792d65-removebg-preview.png" type="image/x-icon">
+    <title>Patryck Lanches</title>
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <img src="img/f1f98e74906d2c48ff4ec8a40e792d65-removebg-preview.png" alt="Logo" class="img-logo">
+        <h1>Patryck Lanches</h1>
+        <p style="font-weight: 700;">Aberto de Seg ao Dom</p>
+        <P style="font-weight: 700;">17:00 as 00:00</P>
+
+    </header>
+
+    <h2 style="padding: 20px; text-align: center; color: white;">Cardápio</h2>
+    <!-- menu -->
+
+    <!-- lanche -->
+    <div id="menu">
+        <main class="ed-tudo">
+            <div class="hanburguer">
+                <img src="img/10-_-misto-quente-163419-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">Misto</p>
+                    <p>Pão, Presunto, e Queijo</p>
+
+                    <div class="lado">
+                        <p>R$ 7,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="Misto" data-price="7,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hanburguer">
+                <img style="width: 8rem; height: 8rem;" src="img/x-burguer-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">HAMBÚGUER</p>
+                    <p>Pão, Carne, Presunto e Queijo</p>
+
+                    <div class="lado">
+                        <p>R$ 8,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="HAMBÚGUER" data-price="8,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hanburguer">
+                <img src="img/americano-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">AMERICANO</p>
+                    <p>Pão, Salada, Milho, Ovo, Batata, Presunto e Queijo</p>
+
+                    <div class="lado">
+                        <p>R$ 10,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="AMERICANO" data-price="10,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/saladaa-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">X-SALADA</p>
+                    <p>Pão, Carne, Salada, Milho, Batata, Presunto, e Queijo</p>
+
+                    <div class="lado">
+                        <p>R$ 10,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="X-SALADA" data-price="10,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="hanburguer">
+                <img src="img/milho-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">X-MILHO</p>
+                    <p>Pão, Carne, Salada, Milho, Batata, Presunto e Queijo</p>
+
+                    <div class="lado">
+                        <p>R$ 12,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="X-MILHO" data-price="12,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/egg-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">X-EGG</p>
+                    <p>Pão, Carne, Salada, Milho, Ovo, Batata, Presunto, Presunto e Queijo</p>
+
+                    <div class="lado">
+                        <p>R$ 13,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="X-EGG" data-price="13,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/calabresa-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">X-CALABRESA</p>
+                    <p>Pão, Carne, Salada, Milho, Calabresa, Batata, Presunto e Queijo</p>
+
+                    <div class="lado">
+                        <p>R$ 15,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="X-CALABRESA" data-price="15,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/bacon-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">X-BACON</p>
+                    <p>Pão, Carne, Salada, Milho, Bacon, Batata, Presunto e Queijo</p>
+
+                    <div class="lado">
+                        <p>R$ 15,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="X-BACON" data-price="15,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/tudo-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">X-TUDO</p>
+                    <p>Pão, Carne, Salada, Milho, Bacon, Calabresa, Salsicha, Ovo, Batata, Presunto e queijo</p>
+
+                    <div class="lado">
+                        <p>R$ 20,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="X-TUDO" data-price="20,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+           
+    <h2 style="color: white;">Bebidas</h2>
+            <div class="hanburguer">
+                <img src="img/guaranar-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">GUARANÁ</p>
+                    <p>1LT</p>
+
+                    <div class="lado">
+                        <p>R$ 8,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="GUARANÁ" data-price="8,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/coca-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">COCA COLA</p>
+                    <p>1LT</p>
+
+                    <div class="lado">
+                        <p>R$ 8,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="COCA COLA" data-price="8,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/fanta-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">FANTA LARANJA</p>
+                    <p>1LT</p>
+
+                    <div class="lado">
+                        <p>R$ 8,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="FANTA LARANJA" data-price="8,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/soda-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">SODA</p>
+                    <p>1LT</p>
+
+                    <div class="lado">
+                        <p>R$ 8,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="SODA" data-price="8,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/coca_lata-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">COCA COLA</p>
+                    <p>LATA</p>
+
+                    <div class="lado">
+                        <p>R$ 5,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="COCA COLA" data-price="5,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/guarana_lata-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">GUARANÁ</p>
+                    <p>LATA</p>
+
+                    <div class="lado">
+                        <p>R$ 5,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="GUARANÁ" data-price="5,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/soda_lata-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">SODA</p>
+                    <p>LATA</p>
+
+                    <div class="lado">
+                        <p>R$ 5,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="SODA" data-price="5,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/fanta laranja lata.webp" alt="">
+
+                <div>
+                    <p class="descrition">FANTA LARANJA</p>
+                    <p>LATA</p>
+
+                    <div class="lado">
+                        <p>R$ 5,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="FANTA LARANJA" data-price="5,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/juninho_guarana-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">GUARANÁ</p>
+                    <p>JUNINHO</p>
+
+                    <div class="lado">
+                        <p>R$ 3,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="GUARANÁ" data-price="3,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/juninho_soda-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">SODA</p>
+                    <p>JUNINHO</p>
+
+                    <div class="lado">
+                        <p>R$ 3,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="SODA" data-price="3,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/juninho_pepis-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">PEPSI</p>
+                    <p>JUNINHO</p>
+
+                    <div class="lado">
+                        <p>R$ 3,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="PEPSI" data-price="3,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/juninho_fanta-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">FANTA LARANJA</p>
+                    <p>JUNINHO</p>
+
+                    <div class="lado">
+                        <p>R$ 3,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="FANTA LARANJA" data-price="3,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/skollata-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">SKOL</p>
+                    <p>LATA</p>
+
+                    <div class="lado">
+                        <p>R$ 4,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="SKOL" data-price="4,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/amistel lata.webp" alt="">
+
+                <div>
+                    <p class="descrition">AMISTEL</p>
+                    <p>LATA</p>
+
+                    <div class="lado">
+                        <p>R$ 4,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="AMISTEL" data-price="4,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/agua-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">AGUA</p>
+                    <p>LATA</p>
+
+                    <div class="lado">
+                        <p>R$ 2,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="AGUA" data-price="2,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/agua_com_gas-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">AGUA COM GÁS</p>
+                    <p>LATA</p>
+
+                    <div class="lado">
+                        <p>R$ 4,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="AGUA COM GÁS" data-price="4,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/h2o-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">H2o</p>
+                    <p>GSRRSFINHS</p>
+
+                    <div class="lado">
+                        <p>R$ 5,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="H2o" data-price="5,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hanburguer">
+                <img src="img/sukita-removebg-preview.png" alt="">
+
+                <div>
+                    <p class="descrition">SKINKA</p>
+                    <p>GSRRSFINHS</p>
+
+                    <div class="lado">
+                        <p>R$ 5,00</p>
+                        <button id="add-btn" class="cor-btn" data-name="SKINKA" data-price="5,00">
+                            <i class="ri-shopping-cart-2-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+
+
+    </div>
+
+    <!--modal2 -->
+    <div class="modal-cart" id="cart-modal">
+        <div class="modal-cart2">
+            <h2 style="color: black;">Meu Carrinho</h2>
+            <div id="cart" class="modal-cart3"></div>
+            <p style="color: black;">Total: <span id="cart-total">0.00</span></p>
+            <p style="color: black;">Endereço de Entrega</p>
+            <input type="text" placeholder="Digite Seu Endereço completo" id="address">
+            <p style="color: red; display: none;" id="address-warn">Digite Seu Endereço completo</p>
+    
+            <select class="select" id="payment-method">
+                <option value="" disabled selected>Selecione o método de pagamento</option>
+                <option value="credit-card">Cartão</option>
+                <option value="cash">Dinheiro</option>
+                <option value="pix">PIX</option>
+            </select>
+    
+            <select class="select" id="description-lanche">
+                <option value="" disabled selected>Selecione se Você quer tirar alguma coisa</option>
+                <option value="sem-milho">Sem milho</option>
+                <option value="sem-salada">Sem salada</option>
+                <option value="sem-creme">Sem creme</option>
+                <option value="sem-queijo">Sem queijo</option>
+                <option value="sem-presunto">Sem presunto</option>
+            </select>
+    
+            <div class="modal-cart4">
+                <button id="fechar-btn" class="fecha-btn">Fechar</button>
+                <button id="checkout-btn" class="finalizar-btn">Finalizar Pedido</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="cart">
+        <button id="meu-cart">
+            <span id="quantidade-cart">0</span>
+            <i class="ri-shopping-cart-2-fill"></i>
+        </button>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
